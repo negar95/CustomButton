@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		89DD9B242C5945D900E85353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B232C5945D900E85353 /* AppDelegate.swift */; };
 		89DD9B262C5945D900E85353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B252C5945D900E85353 /* SceneDelegate.swift */; };
-		89DD9B282C5945D900E85353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B272C5945D900E85353 /* ViewController.swift */; };
 		89DD9B2D2C5945DA00E85353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DD9B2C2C5945DA00E85353 /* Assets.xcassets */; };
 		89DD9B302C5945DA00E85353 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 89DD9B2F2C5945DA00E85353 /* Base */; };
 		89DD9B3B2C5945DA00E85353 /* CustomButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B3A2C5945DA00E85353 /* CustomButtonTests.swift */; };
@@ -19,6 +18,14 @@
 		89DD9B5B2C594B1000E85353 /* CustomButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B5A2C594B1000E85353 /* CustomButtonModel.swift */; };
 		89DD9B5D2C594EF200E85353 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B5C2C594EF200E85353 /* CustomButtonStyle.swift */; };
 		89DD9B5F2C595D4D00E85353 /* CustomButton+TapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B5E2C595D4D00E85353 /* CustomButton+TapAnimation.swift */; };
+		89DD9B622C5987D600E85353 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B612C5987D600E85353 /* HomeModule.swift */; };
+		89DD9B652C59882000E85353 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B642C59882000E85353 /* HomeViewModel.swift */; };
+		89DD9B672C59882900E85353 /* HomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B662C59882900E85353 /* HomeViewModelProtocol.swift */; };
+		89DD9B6B2C59885100E85353 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B692C59885100E85353 /* HomeViewController.swift */; };
+		89DD9B6E2C598BC200E85353 /* HomeViewController+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B6D2C598BC200E85353 /* HomeViewController+UITextFieldDelegate.swift */; };
+		89DD9B712C59936300E85353 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B702C59936300E85353 /* Name.swift */; };
+		89DD9B732C5993DE00E85353 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B722C5993DE00E85353 /* Loadable.swift */; };
+		89DD9B772C599BF300E85353 /* UITextField+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B762C599BF300E85353 /* UITextField+Publisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +49,6 @@
 		89DD9B202C5945D900E85353 /* CustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DD9B232C5945D900E85353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DD9B252C5945D900E85353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89DD9B272C5945D900E85353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89DD9B2C2C5945DA00E85353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DD9B2F2C5945DA00E85353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DD9B312C5945DA00E85353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +61,14 @@
 		89DD9B5A2C594B1000E85353 /* CustomButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModel.swift; sourceTree = "<group>"; };
 		89DD9B5C2C594EF200E85353 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		89DD9B5E2C595D4D00E85353 /* CustomButton+TapAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomButton+TapAnimation.swift"; sourceTree = "<group>"; };
+		89DD9B612C5987D600E85353 /* HomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
+		89DD9B642C59882000E85353 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		89DD9B662C59882900E85353 /* HomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		89DD9B692C59885100E85353 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		89DD9B6D2C598BC200E85353 /* HomeViewController+UITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
+		89DD9B702C59936300E85353 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		89DD9B722C5993DE00E85353 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		89DD9B762C599BF300E85353 /* UITextField+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Publisher.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,7 @@
 		89DD9B222C5945D900E85353 /* CustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				89DD9B6F2C59934E00E85353 /* Model */,
 				89DD9B562C594ADA00E85353 /* Views */,
 				89DD9B552C59493500E85353 /* Navigations */,
 				89DD9B542C59492400E85353 /* Delegates */,
@@ -133,6 +148,7 @@
 		89DD9B532C59490A00E85353 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				89DD9B752C599BE200E85353 /* Extensions */,
 				89DD9B2C2C5945DA00E85353 /* Assets.xcassets */,
 				89DD9B312C5945DA00E85353 /* Info.plist */,
 			);
@@ -151,8 +167,8 @@
 		89DD9B552C59493500E85353 /* Navigations */ = {
 			isa = PBXGroup;
 			children = (
+				89DD9B602C5987C000E85353 /* HomeModule */,
 				89DD9B2E2C5945DA00E85353 /* LaunchScreen.storyboard */,
-				89DD9B272C5945D900E85353 /* ViewController.swift */,
 			);
 			path = Navigations;
 			sourceTree = "<group>";
@@ -174,6 +190,51 @@
 				89DD9B5C2C594EF200E85353 /* CustomButtonStyle.swift */,
 			);
 			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		89DD9B602C5987C000E85353 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				89DD9B612C5987D600E85353 /* HomeModule.swift */,
+				89DD9B682C59882D00E85353 /* ViewController */,
+				89DD9B632C5987D900E85353 /* ViewModel */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		89DD9B632C5987D900E85353 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				89DD9B642C59882000E85353 /* HomeViewModel.swift */,
+				89DD9B662C59882900E85353 /* HomeViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		89DD9B682C59882D00E85353 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89DD9B692C59885100E85353 /* HomeViewController.swift */,
+				89DD9B6D2C598BC200E85353 /* HomeViewController+UITextFieldDelegate.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		89DD9B6F2C59934E00E85353 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89DD9B702C59936300E85353 /* Name.swift */,
+				89DD9B722C5993DE00E85353 /* Loadable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89DD9B752C599BE200E85353 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89DD9B762C599BF300E85353 /* UITextField+Publisher.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,9 +368,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				89DD9B5D2C594EF200E85353 /* CustomButtonStyle.swift in Sources */,
+				89DD9B652C59882000E85353 /* HomeViewModel.swift in Sources */,
 				89DD9B5F2C595D4D00E85353 /* CustomButton+TapAnimation.swift in Sources */,
+				89DD9B6E2C598BC200E85353 /* HomeViewController+UITextFieldDelegate.swift in Sources */,
+				89DD9B732C5993DE00E85353 /* Loadable.swift in Sources */,
+				89DD9B622C5987D600E85353 /* HomeModule.swift in Sources */,
 				89DD9B592C594AF500E85353 /* CustomButton.swift in Sources */,
-				89DD9B282C5945D900E85353 /* ViewController.swift in Sources */,
+				89DD9B712C59936300E85353 /* Name.swift in Sources */,
+				89DD9B672C59882900E85353 /* HomeViewModelProtocol.swift in Sources */,
+				89DD9B6B2C59885100E85353 /* HomeViewController.swift in Sources */,
+				89DD9B772C599BF300E85353 /* UITextField+Publisher.swift in Sources */,
 				89DD9B242C5945D900E85353 /* AppDelegate.swift in Sources */,
 				89DD9B262C5945D900E85353 /* SceneDelegate.swift in Sources */,
 				89DD9B5B2C594B1000E85353 /* CustomButtonModel.swift in Sources */,
