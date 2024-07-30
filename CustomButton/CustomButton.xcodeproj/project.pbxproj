@@ -15,6 +15,10 @@
 		89DD9B3B2C5945DA00E85353 /* CustomButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B3A2C5945DA00E85353 /* CustomButtonTests.swift */; };
 		89DD9B452C5945DB00E85353 /* CustomButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B442C5945DB00E85353 /* CustomButtonUITests.swift */; };
 		89DD9B472C5945DB00E85353 /* CustomButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B462C5945DB00E85353 /* CustomButtonUITestsLaunchTests.swift */; };
+		89DD9B592C594AF500E85353 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B582C594AF500E85353 /* CustomButton.swift */; };
+		89DD9B5B2C594B1000E85353 /* CustomButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B5A2C594B1000E85353 /* CustomButtonModel.swift */; };
+		89DD9B5D2C594EF200E85353 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B5C2C594EF200E85353 /* CustomButtonStyle.swift */; };
+		89DD9B5F2C595D4D00E85353 /* CustomButton+TapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD9B5E2C595D4D00E85353 /* CustomButton+TapAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		89DD9B402C5945DB00E85353 /* CustomButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DD9B442C5945DB00E85353 /* CustomButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonUITests.swift; sourceTree = "<group>"; };
 		89DD9B462C5945DB00E85353 /* CustomButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89DD9B582C594AF500E85353 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		89DD9B5A2C594B1000E85353 /* CustomButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModel.swift; sourceTree = "<group>"; };
+		89DD9B5C2C594EF200E85353 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		89DD9B5E2C595D4D00E85353 /* CustomButton+TapAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomButton+TapAnimation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		89DD9B222C5945D900E85353 /* CustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				89DD9B562C594ADA00E85353 /* Views */,
 				89DD9B552C59493500E85353 /* Navigations */,
 				89DD9B542C59492400E85353 /* Delegates */,
 				89DD9B532C59490A00E85353 /* SupportingFiles */,
@@ -146,6 +155,25 @@
 				89DD9B272C5945D900E85353 /* ViewController.swift */,
 			);
 			path = Navigations;
+			sourceTree = "<group>";
+		};
+		89DD9B562C594ADA00E85353 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89DD9B572C594ADF00E85353 /* CustomButton */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89DD9B572C594ADF00E85353 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				89DD9B582C594AF500E85353 /* CustomButton.swift */,
+				89DD9B5E2C595D4D00E85353 /* CustomButton+TapAnimation.swift */,
+				89DD9B5A2C594B1000E85353 /* CustomButtonModel.swift */,
+				89DD9B5C2C594EF200E85353 /* CustomButtonStyle.swift */,
+			);
+			path = CustomButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DD9B5D2C594EF200E85353 /* CustomButtonStyle.swift in Sources */,
+				89DD9B5F2C595D4D00E85353 /* CustomButton+TapAnimation.swift in Sources */,
+				89DD9B592C594AF500E85353 /* CustomButton.swift in Sources */,
 				89DD9B282C5945D900E85353 /* ViewController.swift in Sources */,
 				89DD9B242C5945D900E85353 /* AppDelegate.swift in Sources */,
 				89DD9B262C5945D900E85353 /* SceneDelegate.swift in Sources */,
+				89DD9B5B2C594B1000E85353 /* CustomButtonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,9 +488,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SV8M93ZRDQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomButton/Info.plist;
+				INFOPLIST_FILE = CustomButton/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,9 +515,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SV8M93ZRDQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomButton/Info.plist;
+				INFOPLIST_FILE = CustomButton/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
